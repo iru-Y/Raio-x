@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/home/iruy/Programacao/Raio-x/Flutter/raiox_project/android/app/src/main/res/values/styles.xml",
+                    "source": "/home/iruy/Programacao/Raio-x/raiox_project_flutter/android/app/src/main/res/values/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
