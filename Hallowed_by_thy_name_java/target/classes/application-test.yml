@@ -1,0 +1,5 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://xerox:xerox@localhost:27017/xerox?authSource=admin
+      database: delivery
