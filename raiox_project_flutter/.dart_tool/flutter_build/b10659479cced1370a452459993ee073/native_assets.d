@@ -1,0 +1,1 @@
+ /home/iruy/Programacao/Raio-x/raiox_project_flutter/.dart_tool/flutter_build/b10659479cced1370a452459993ee073/native_assets.yaml: 
