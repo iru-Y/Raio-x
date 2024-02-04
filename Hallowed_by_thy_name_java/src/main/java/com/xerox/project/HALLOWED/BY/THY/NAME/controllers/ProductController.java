@@ -5,6 +5,7 @@ import com.xerox.project.HALLOWED.BY.THY.NAME.services.ProductService;
 import lombok.AllArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import reactor.core.publisher.Mono;
 
 @RestController
 @RequestMapping(value = "/products")
@@ -13,7 +14,7 @@ public class ProductController {
     private final ProductService productService;
 
     @PostMapping("/new-product")
-    public ResponseEntity<ProductModel> post(@RequestBody ProductModel productDto) {
+    public ResponseEntity<Mono<ProductModel>> post(@RequestBody ProductModel productDto) {
         return ResponseEntity.ok(productService.post(productDto));
     }
 }
